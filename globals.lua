@@ -38,3 +38,5 @@ Vector = require 'libs.hump.vector'
 States = {
   empty = require 'states.empty'
 }
+
+love.graphics.setDefaultFilter("nearest", "nearest", 1)
